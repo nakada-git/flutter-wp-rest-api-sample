@@ -13,7 +13,7 @@ class ArticleModel extends ChangeNotifier {
   //ローディング
   bool isLoading = true;
 
-  //WP APIからデータを所得
+  //WP APIからデータを取得
   Future<void> getWpArticle() async {
     //読み込みたいWordPressサイトのエンドポイント
     const String url =
